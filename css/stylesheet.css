@@ -244,3 +244,7 @@ body {font-family: Verdana, sans-serif;}
 	margin-right: auto;
 	margin-bottom: 10%;
 }
+
+.navbarmax {
+	max-height: 10px;
+}
