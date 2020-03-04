@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+html{
+	background-color: #FFFFFF;
+}
+
+.icon1{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titel1{
+	 text-align: center;
+}
+
+.subheader1{
+	 text-align: center;
+}
+
+.registerbutton{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logocontent{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
