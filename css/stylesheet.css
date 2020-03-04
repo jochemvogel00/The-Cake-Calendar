@@ -28,3 +28,11 @@ html{
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
+
+.loginform {
+	max-width: 20%;
+}
+
+.submitbutton {
+	margin-bottom: 20px;
+}
