@@ -4,6 +4,10 @@ html{
 	background-color: #FFFFFF;
 }
 
+p {
+	font-family: 'Oswald', sans-serif;
+}
+
 .icon1{
 	 display: block;
   margin-left: auto;
@@ -257,10 +261,15 @@ body {font-family: Verdana, sans-serif;}
 	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	outline: 1px solid #23BCF1;
+	border: 2px solid #23BCF1;
 	border-radius: 15px;
+  
 }
 
+.insidebirthdaycontainer {
+	border: 1px solid #23BCF1;
+	border-radius: 15px;
+}
 
 .cakecalendartitle {
 	width: 100%;
