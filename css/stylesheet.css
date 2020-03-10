@@ -261,14 +261,18 @@ body {font-family: Verdana, sans-serif;}
 	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px solid #23BCF1;
-	border-radius: 15px;
+	margin-bottom: 100px;
+	border: 2px solid #86EFF8;
+	border-radius: 5px;
+	
   
 }
 
 .insidebirthdaycontainer {
-	border: 1px solid #23BCF1;
-	border-radius: 15px;
+	border: 1px solid #86EFF8;
+	border-radius: 1px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .cakecalendartitle {
@@ -279,4 +283,13 @@ body {font-family: Verdana, sans-serif;}
 	padding-top: 70px;
 	font-family: 'Oswald', sans-serif;
 	color:#F6A247;
+}
+
+.titlebirthdaycontainer {
+	height: 80px;
+	background-color:#86EFF8;
+	border: 1px solid #86EFF8;
+	border-radius: 1px;
+	padding-top: 15px;
+	color: white;
 }
