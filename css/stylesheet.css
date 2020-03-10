@@ -309,7 +309,6 @@ body {font-family: Verdana, sans-serif;}
 	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 100px;
 	border-left: 2px solid #86EFF8;
 	border-right: 2px solid #86EFF8;
 	border-top: 2px solid #86EFF8;
@@ -329,13 +328,39 @@ body {font-family: Verdana, sans-serif;}
 
 .profile-navbar{
 	width: 60%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	border-left: 2px solid #86EFF8;
+	border-right: 2px solid #86EFF8;
+	border-top: 2px solid #86EFF8;
+	border-bottom: 2px solid #86EFF8;
+	border-color: #86EFF8;
+}
+
+.navbar-profile{
+	width: 60%;
+ 	display: block;
+	text-align: center;
+ 	font-size: 17px;
+}
+
+.friends{
+	width: 60%;
 	height: auto;
-	border: 2px solid #86EFF8;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border-color: #86EFF8;
 }
 
+.friendlist{
+	border: 1px solid #86EFF8;
+	border-radius: 1px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
 
 
 
