@@ -323,7 +323,8 @@ body {font-family: Verdana, sans-serif;}
 	margin-right: auto;
 	font-family: 'Oswald', sans-serif;
 	color:#F6A247;
-	text-align: center
+	text-align: center;
+	font-size: 30px;
 }
 
 .profile-navbar{
