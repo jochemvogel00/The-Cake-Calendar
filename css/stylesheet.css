@@ -339,13 +339,17 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .navbar-profile{
+
+	width: 100%;
 	word-spacing: 160px;
 	height: 30px;
  	display: block;
 	text-align: center;
  	font-size: 17px;
 	background-color: #18A2B8;
+	color: white;
 	color: #f2f2f2; 
+
 }
 
 .friends{
