@@ -339,13 +339,21 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .navbar-profile{
+<<<<<<< HEAD
 	width: 100%;
+=======
+	word-spacing: 160px;
+>>>>>>> 38ad13f87ddd32dbeb4cfd1ac6fd1c8255d33eba
 	height: 30px;
  	display: block;
 	text-align: center;
  	font-size: 17px;
 	background-color: #18A2B8;
+<<<<<<< HEAD
 	color: white;
+=======
+	color: #f2f2f2; 
+>>>>>>> 38ad13f87ddd32dbeb4cfd1ac6fd1c8255d33eba
 }
 
 .friends{
