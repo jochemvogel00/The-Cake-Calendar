@@ -369,10 +369,12 @@ body {font-family: Verdana, sans-serif;}
 	padding-top: 20px;
 	padding-bottom: 10px;
 	text-align: center;
+	display: block;
 }
 
 .profilepictures {
 	border-radius: 50%;
+	
 }
 
 
@@ -397,6 +399,7 @@ body {font-family: Verdana, sans-serif;}
 	width: 60px;
 	border-radius: 50%;
 	align-content: center;
+	position: absolute;
 	
 }
 
