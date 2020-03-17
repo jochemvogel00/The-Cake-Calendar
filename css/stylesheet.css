@@ -472,3 +472,33 @@ body {font-family: Verdana, sans-serif;}
 	border-right: 2px solid #86EFF8;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
+
+.wishlistpicture{
+	height: 50%;
+	float: left;
+	text-align: center;
+	padding-left: 10px;
+	
+	
+}
+
+.wishlist-image{
+	width: auto;
+	max-height:100px;
+	max-width: 150px;
+	align-content: center;
+	position: absolute;
+	display: block
+	
+}
+
+.friendwishlist {
+	border: 1px solid #86EFF8;
+	border-radius: 1px;
+	padding-top: auto;
+	padding-bottom: 10px;
+	text-align: center;
+	display: block;
+	background-color: white;
+	height: 120px
+}
