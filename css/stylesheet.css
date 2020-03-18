@@ -460,6 +460,8 @@ body {font-family: Verdana, sans-serif;}
 
 .container-xs {
 	background-color: white;
+	
+	
 }
 
 .titleprofile {
@@ -505,7 +507,11 @@ body {font-family: Verdana, sans-serif;}
 	height: 120px
 }
 .confetti{
-	position:absolute;
+	position:fixed;
+}
+
+.confetti-background{
+	background-position: center;
 }
 	
 	
