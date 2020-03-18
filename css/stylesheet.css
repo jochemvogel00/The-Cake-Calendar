@@ -251,10 +251,12 @@ body {font-family: Verdana, sans-serif;}
 .calendarlist {
 	margin-top: 9%;
 	max-width: 75%;
-	 display: block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10%;}
+	margin-bottom: 10%;
+}
+
 
 .logotop {
 	background-color: white;
@@ -459,8 +461,11 @@ body {font-family: Verdana, sans-serif;}
 
 
 .container-xs {
+	width: 60%;
+	height: auto;
 	background-color: white;
-	
+	position: absolute;
+	display: block;
 	
 }
 
@@ -507,11 +512,13 @@ body {font-family: Verdana, sans-serif;}
 	height: 120px
 }
 .confetti{
-	position:fixed;
+	
 }
 
 .confetti-background{
-	background-position: center;
+    width: 60%;
+	position: absolute;
+	
 }
 	
 	
