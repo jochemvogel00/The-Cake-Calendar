@@ -5,10 +5,6 @@ html{
 }
 
 body {
-	background-image: url("../images/4-confetti-background-1.png");
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
-	background-size: cover;
 }
 
 p {
@@ -251,10 +247,12 @@ body {font-family: Verdana, sans-serif;}
 .calendarlist {
 	margin-top: 9%;
 	max-width: 75%;
-	 display: block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10%;}
+	margin-bottom: 10%;
+}
+
 
 .logotop {
 	background-color: white;
@@ -459,7 +457,12 @@ body {font-family: Verdana, sans-serif;}
 
 
 .container-xs {
+	width: 60%;
+	height: auto;
 	background-color: white;
+	position: absolute;
+	display: block;
+	
 }
 
 .titleprofile {
@@ -504,3 +507,14 @@ body {font-family: Verdana, sans-serif;}
 	background-color: white;
 	height: 120px
 }
+.confetti{
+	
+}
+
+.confetti-background{
+    width: 60%;
+	position: absolute;
+	
+}
+	
+	
