@@ -1,6 +1,6 @@
 let canvas = document.getElementById('confetti');
 
-canvas.width = 500;
+canvas.width = 1000;
 canvas.height = 1000;
 
 let ctx = canvas.getContext('2d');
