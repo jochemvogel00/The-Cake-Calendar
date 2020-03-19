@@ -30,10 +30,6 @@ function update () {
     }
 
 
-    while (pieces.length < numberOfPieces) {
-        pieces.push(new Piece(Math.random() * canvas.width, -20));
-    }
-
     lastUpdateTime = now;
 
     setTimeout(update, 1);
