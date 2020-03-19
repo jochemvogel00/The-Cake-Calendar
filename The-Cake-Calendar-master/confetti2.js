@@ -1,6 +1,6 @@
 let canvas = document.getElementById('confetti');
 
-canvas.width = 1000;
+canvas.width = 500;
 canvas.height = 1000;
 
 let ctx = canvas.getContext('2d');
@@ -58,7 +58,7 @@ function Piece (x, y) {
     this.x = x;
     this.y = y;
     this.size = (Math.random() * 0.5 + 0.75) * 15;
-    this.gravity = (Math.random() * 0.5 + 0.75) * 0.1;
+    this.gravity = (Math.random() * 0.5 + 0.75) * 0.5;
     this.rotation = (Math.PI * 2) * Math.random();
     this.rotationSpeed = (Math.PI * 2) * (Math.random() - 0.5) * 0.001;
     this.color = randomColor();
