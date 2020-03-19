@@ -6,7 +6,7 @@ html{
 }
 
 body {
-	background: url("../images/Confetti1.png");
+	background: url("../images/achtergrond_confetti_Tekengebied 1.png");
 	background-size: contain;
 }
 
@@ -53,6 +53,7 @@ p {
 
 .littlelogo {
 	margin-right: 10px;
+	color:#F6A853
 }
 
 /* Place the navbar at the bottom of the page, and make it stick */
