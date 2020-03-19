@@ -518,7 +518,10 @@ body {font-family: Verdana, sans-serif;}
 	
 .logocontent2 {
 	padding-top: 30%;
-}	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .maincontent {
 	margin-left: auto;
