@@ -28,6 +28,10 @@ function update () {
         p.y += p.gravity * dt;
         p.rotation += p.rotationSpeed * dt;
     }
+	
+	 while (pieces.length < numberOfPieces) {
+        pieces.push(new Piece(Math.random() * canvas.width, -20));
+    }
 
 
     lastUpdateTime = now;
@@ -58,7 +62,7 @@ function Piece (x, y) {
     this.x = x;
     this.y = y;
     this.size = (Math.random() * 0.5 + 0.75) * 15;
-    this.gravity = (Math.random() * 0.5 + 0.75) * 0.5;
+    this.gravity = (Math.random() * 0.5 + 0.75) * 0.2;
     this.rotation = (Math.PI * 2) * Math.random();
     this.rotationSpeed = (Math.PI * 2) * (Math.random() - 0.5) * 0.001;
     this.color = randomColor();
