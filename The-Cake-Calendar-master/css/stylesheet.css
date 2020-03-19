@@ -6,7 +6,7 @@ html{
 }
 
 body {
-	background: url("../images/achtergrond_confetti_Tekengebied 1.png");
+	background:url("../images/achtergrond_confetti_Tekengebied 1.png");
 	background-size: contain;
 }
 
@@ -296,6 +296,7 @@ body {font-family: Verdana, sans-serif;}
 	padding-top: 70px;
 	font-family: 'Oswald', sans-serif;
 	color:#F6A247;
+	background-color: white;
 }
 
 .titlebirthdaycontainer {
