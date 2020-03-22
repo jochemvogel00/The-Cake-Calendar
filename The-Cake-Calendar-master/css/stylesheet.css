@@ -6,8 +6,7 @@ html{
 }
 
 body {
-	background:url("../images/achtergrond_confetti_Tekengebied 1.png");
-	background-size: contain;
+	
 }
 
 p {
@@ -19,6 +18,11 @@ p {
   margin-left: auto;
   margin-right: auto;
 	margin-top: 15px;
+}
+
+.body {
+	background:url("../images/achtergrond_confetti_Tekengebied 1.png");
+	background-size: contain;
 }
 
 .titel1{
