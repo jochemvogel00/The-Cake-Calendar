@@ -543,3 +543,30 @@ body {font-family: Verdana, sans-serif;}
 .index{
 	width: 60%;
 }
+
+.friendabout {
+	border: 1px solid #86EFF8;
+	border-radius: 1px;
+	padding-top: auto;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	display: block;
+	background-color: white;
+	height: auto;
+}
+
+.about{
+	width: 60%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #86EFF8;
+	padding-bottom: 50px;
+}
+
+.quote{
+	text-align: center;
+	padding-right: 50px;
+}
+
