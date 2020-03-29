@@ -572,3 +572,20 @@ body {font-family: Verdana, sans-serif;}
 	padding-top: 4px
 }
 
+.searchcontainer {
+	border: 1px solid #86EFF8;
+	height: 500px;
+	border-radius: 1px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+
+.titlesearchcontainer {
+	
+	background-color:#86EFF8;
+	border: 1px solid #86EFF8;
+	border-radius: 1px;
+	color: white;
+}
