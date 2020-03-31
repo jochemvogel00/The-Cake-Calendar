@@ -313,14 +313,14 @@ body {font-family: Verdana, sans-serif;}
 	color: white;
 }
 
-.profile-picture {
+.profile-picture {							/*!!!!!!!!!!*/
 	display: block;
 	align-content: center;
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 2px;
-	
+	position: ;
 	
 }
 
@@ -520,9 +520,6 @@ body {font-family: Verdana, sans-serif;}
 	background-color: white;
 	height: 120px
 }
-.confetti{
-	
-}
 
 .confetti-background{
     width: 60%;
@@ -601,9 +598,10 @@ body {font-family: Verdana, sans-serif;}
 	background-color: white;
 }
 
-.settings{
+.settings{								/*!!!!!!!!!*/
 	float: right;
 	padding-top: 0px;
+	position:
 }
 
 .changepicture{
