@@ -592,16 +592,34 @@ body {font-family: Verdana, sans-serif;}
 	color: white;
 }
 
+.settingcontainer {
+	border: 1px solid #86EFF8;
+	height: 500px;
+	border-radius: 1px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
 .settings{
 	float: right;
 	padding-top: 0px;
 }
 
+.changepicture{
+	width: 291px;
+	display: inline-block;
+	background-color: #86EEF8;
+	color: white;
+
+}
+
 /* Dropdown Button */
 .dropbtn {
-  background-color: #3498DB;
+  background-color: #86EEF8;
   color: white;
-  padding: 16px;
+  padding: 3px 100px 3px 100px;
+  width: 291px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -609,13 +627,15 @@ body {font-family: Verdana, sans-serif;}
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #F59E3F;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
+	
+	padding-top: 30px
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -623,15 +643,14 @@ body {font-family: Verdana, sans-serif;}
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  width: 291px;
   text-decoration: none;
   display: block;
 }
