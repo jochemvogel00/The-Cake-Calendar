@@ -320,7 +320,7 @@ body {font-family: Verdana, sans-serif;}
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 2px;
-	position: ;
+	
 	
 }
 
@@ -365,7 +365,7 @@ body {font-family: Verdana, sans-serif;}
 .navbar-profile{
 
 	width: 100%;
-	word-spacing: 160px;
+	word-spacing: 90px;
 	height: 30px;
  	display: block;
 	text-align: center;
@@ -601,7 +601,7 @@ body {font-family: Verdana, sans-serif;}
 .settings{								/*!!!!!!!!!*/
 	float: right;
 	padding-top: 0px;
-	position:
+	
 }
 
 .changepicture{
