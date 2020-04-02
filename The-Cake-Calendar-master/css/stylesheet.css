@@ -652,24 +652,6 @@ body {font-family: Verdana, sans-serif;}
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  width: 291px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
 
 .dropdown-content2 {
   display: none;
@@ -685,6 +667,7 @@ body {font-family: Verdana, sans-serif;}
   width: 291px;
   text-decoration: none;
   display: block;
+	
 }
 
 /* Change color of dropdown links on hover */
@@ -692,3 +675,45 @@ body {font-family: Verdana, sans-serif;}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+.logout{
+	width: 130px;
+	display: inline-block;
+	background-color: #86EEF8;
+	color: white;
+	margin-top: 30px;
+	height: 50px;
+	text-align: center;
+	padding-top: 13px
+
+}
+
+.delete{
+	width: 130px;
+	display: inline-block;
+	background-color: #F6A248;
+	color: white;
+	margin-top: 30px;
+	height: 50px;
+	text-align: center;
+	padding-top: 13px
+
+}
+
+.login-delete{
+	margin-top: 70px;
+}
+
+
+.edit{
+	width: 50px;
+	height: 50px;
+	position: absolute
+}
+
+
+
+
+
+
