@@ -429,7 +429,6 @@ body {font-family: Verdana, sans-serif;}
 	text-align: center;
 	padding-left: 10px;
 	padding-top: 15px
-	
 }
 
 .friendprofile-picture{
@@ -437,7 +436,6 @@ body {font-family: Verdana, sans-serif;}
 	border-radius: 50%;
 	align-content: center;
 	position: absolute
-	
 }
 
 .wishlist{
@@ -509,8 +507,6 @@ body {font-family: Verdana, sans-serif;}
 	float: left;
 	text-align: center;
 	padding-left: 10px;
-	
-	
 }
 
 .wishlist-image{
@@ -520,7 +516,6 @@ body {font-family: Verdana, sans-serif;}
 	align-content: center;
 	position: absolute;
 	display: block
-	
 }
 
 .friendwishlist {
@@ -537,7 +532,6 @@ body {font-family: Verdana, sans-serif;}
 .confetti-background{
     width: 60%;
 	position: absolute;
-	
 }
 	
 .logocontent2 {
@@ -566,7 +560,6 @@ body {font-family: Verdana, sans-serif;}
 	display: block;
 	background-color: white;
 	height: auto;
-	
 }
 
 .about{
@@ -615,7 +608,6 @@ body {font-family: Verdana, sans-serif;}
 .settings{								/*!!!!!!!!!*/
 	float: right;
 	padding-top: 0px;
-	
 }
 
 .changepicture{
@@ -623,7 +615,6 @@ body {font-family: Verdana, sans-serif;}
 	display: inline-block;
 	background-color: #86EEF8;
 	color: white;
-
 }
 
 /* Dropdown Button */
@@ -662,7 +653,6 @@ body {font-family: Verdana, sans-serif;}
 .dropdown {
   position: relative;
   display: inline-block;
-	
 	padding-top: 30px
 }
 
@@ -672,7 +662,6 @@ body {font-family: Verdana, sans-serif;}
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  
   z-index: 1;
 }
 
@@ -682,7 +671,6 @@ body {font-family: Verdana, sans-serif;}
   width: 291px;
   text-decoration: none;
   display: block;
-	
 }
 
 /* Change color of dropdown links on hover */
@@ -701,7 +689,6 @@ body {font-family: Verdana, sans-serif;}
 	height: 50px;
 	text-align: center;
 	padding-top: 13px
-
 }
 
 .delete{
@@ -713,7 +700,6 @@ body {font-family: Verdana, sans-serif;}
 	height: 50px;
 	text-align: center;
 	padding-top: 13px
-
 }
 
 .login-delete{
