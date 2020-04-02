@@ -22,7 +22,7 @@ p {
 
 .body {
 	background:url("../images/achtergrond_confetti_Tekengebied 1.png");
-	background-size: contain;
+	background-size: cover
 }
 
 .titel1{
@@ -317,7 +317,7 @@ body {font-family: Verdana, sans-serif;}
 	display: block;
 	align-content: center;
 	border-radius: 50%;
-	margin-left: auto;
+	margin-left: 40px;
 	margin-right: auto;
 	padding-top: 2px;
 	
@@ -364,7 +364,7 @@ body {font-family: Verdana, sans-serif;}
 .navbar-profile{
 
 	width: 100%;
-	word-spacing: 90px;
+	word-spacing: px;
 	height: 30px;
  	display: block;
 	text-align: center;
@@ -373,6 +373,11 @@ body {font-family: Verdana, sans-serif;}
 	color: white;
 	color: #f2f2f2; 
 
+}
+
+.profile-options{
+	width
+	display: inline-block
 }
 
 .friends{
@@ -627,6 +632,22 @@ body {font-family: Verdana, sans-serif;}
   background-color: #F59E3F;
 }
 
+/* Dropdown Button2 */
+.dropbtn2 {
+  background-color: #86EEF8;
+  color: white;
+  padding: 3px 100px 3px 100px;
+  width: 291px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn2:hover, .dropbtn:focus {
+  background-color: #F59E3F;
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -636,24 +657,6 @@ body {font-family: Verdana, sans-serif;}
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  width: 291px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
 
 .dropdown-content2 {
   display: none;
@@ -669,6 +672,7 @@ body {font-family: Verdana, sans-serif;}
   width: 291px;
   text-decoration: none;
   display: block;
+	
 }
 
 /* Change color of dropdown links on hover */
@@ -676,3 +680,59 @@ body {font-family: Verdana, sans-serif;}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+.logout{
+	width: 130px;
+	display: inline-block;
+	background-color: #86EEF8;
+	color: white;
+	margin-top: 30px;
+	height: 50px;
+	text-align: center;
+	padding-top: 13px
+
+}
+
+.delete{
+	width: 130px;
+	display: inline-block;
+	background-color: #F6A248;
+	color: white;
+	margin-top: 30px;
+	height: 50px;
+	text-align: center;
+	padding-top: 13px
+
+}
+
+.login-delete{
+	margin-top: 70px;
+}
+
+
+.edit{
+	width: 50px;
+	height: 50px;
+	position: absolute
+}
+
+
+.addbirthdaycontainer {
+	width: 60%;
+	height: auto;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	border-left: 2px solid #86EFF8;
+	border-right: 2px solid #86EFF8;
+	border-top: 2px solid #86EFF8;
+	border-bottom: 2px solid #86EFF8;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white; } 
+
+
+
+
