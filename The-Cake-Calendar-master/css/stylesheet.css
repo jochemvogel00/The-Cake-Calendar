@@ -323,6 +323,16 @@ body {font-family: Verdana, sans-serif;}
 	
 }
 
+.profile-picture2 {							/*!!!!!!!!!!*/
+	display: block;
+	align-content: center;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2px;
+	
+}
+
 .profile-container {
 	width: 60%;
 	height: 160px;
@@ -376,8 +386,7 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .profile-options{
-	width
-	display: inline-block
+	display: inline-block;
 }
 
 .friends{
@@ -557,6 +566,7 @@ body {font-family: Verdana, sans-serif;}
 	display: block;
 	background-color: white;
 	height: auto;
+	
 }
 
 .about{
