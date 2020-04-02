@@ -317,7 +317,7 @@ body {font-family: Verdana, sans-serif;}
 	display: block;
 	align-content: center;
 	border-radius: 50%;
-	margin-left: 245px;
+	margin-left: 40px;
 	margin-right: auto;
 	padding-top: 2px;
 	
@@ -364,7 +364,7 @@ body {font-family: Verdana, sans-serif;}
 .navbar-profile{
 
 	width: 100%;
-	word-spacing: 90px;
+	word-spacing: px;
 	height: 30px;
  	display: block;
 	text-align: center;
@@ -373,6 +373,11 @@ body {font-family: Verdana, sans-serif;}
 	color: white;
 	color: #f2f2f2; 
 
+}
+
+.profile-options{
+	width
+	display: inline-block
 }
 
 .friends{
