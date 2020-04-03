@@ -2,41 +2,51 @@
 <html>
 <head>
 <title>Dashboard</title>
-	
 <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	
-	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> 
 </head>
 <body class="body">
 	
-		
 	
 	<div class="logotop fixed-top" align="center">
     <a href="dashboard.html"><img src="images/PR8_Logo_CakeCalendar_Round.png" width="45" height="45" class="icon1" alt=""/></a>
 	</div>
 	<div class="cakecalendartitle text-center">Cake Calendar</div>
-	<div class="birthdaycontainer text-center">
-		<div class="titlesearchcontainer text-center">
-			
+
+	<div class="addbirthdaycontainer2">
 	
-			<div class="search-container">
+		<div class="form-group">
+				
     <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"></button>
-    </form>
+  <label for="To">To:</label>
+  <select id="Receiver" name="Receiver">
+    <option value="Julie Martina">Julie Martina</option>
+    <option value="Arleth Sanders">Arleth Sanders</option>
+    <option value="Jochem Vogel">Jochem Vogel</option>
+    <option value="Chade Dohmen">Chade Dohmen</option>
+	  <option value="Neftali Cannister">Neftali Cannister</option>
+	  <option value="Danae Lips">Danae Lips</option>
+	  <option value="Thomas de Zeeuw">Thomas de Zeeuw</option>
+  </select>
+</form>
   </div>
-
-	
-		</div>
+		<form>
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insert text">
+    
+ 
+  </div>
 		
-		<div class="searchcontainer">
-			
-	  	</div>
-
+  <div class= "knopje"><a class="btn btn-info" href="dashboard.html" role="button">Send now</a></div>
+			<div class= "knopje"><a class="btn btn-info" href="autosendmessage.html" role="button">Auto send</a></div>
+			<div class= "knopje"><a class="btn btn-info" href="dashboard.html" role="button">Cancel</a></div>
+</form>
+		
 	</div>
+
 	
+
 	
 <div class="navbar navbar-expand-xs bg-info fixed-bottom" id="myNavbar">
   <a href="calendar.html"><img src="images/Calendar.png" width="40"  alt=""/></a>
@@ -48,6 +58,7 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 		
+
 </body>
 	
 	<script src="js/jquery-3.4.1.js.webarchive"></script>

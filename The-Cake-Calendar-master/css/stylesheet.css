@@ -320,7 +320,7 @@ body {font-family: Verdana, sans-serif;}
 	display: block;
 	align-content: center;
 	border-radius: 50%;
-	margin-left: 40px;
+	margin-left: auto;
 	margin-right: auto;
 	padding-top: 2px;
 	
@@ -748,7 +748,7 @@ body {font-family: Verdana, sans-serif;}
 .addbirthdaycontainer {
 	width: 60%;
 	height: auto;
-	margin-top: 80px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
@@ -760,6 +760,17 @@ body {font-family: Verdana, sans-serif;}
 	text-align: center;
 	background-color: white; } 
 
-
-
-
+.addbirthdaycontainer2 {
+	width: 60%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	border-left: 2px solid #86EFF8;
+	border-right: 2px solid #86EFF8;
+	border-top: 2px solid #86EFF8;
+	border-bottom: 2px solid #86EFF8;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white; } 
