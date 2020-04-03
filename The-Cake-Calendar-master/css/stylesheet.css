@@ -261,7 +261,7 @@ body {font-family: Verdana, sans-serif;}
 
 .calendarlist {
 	margin-top: 9%;
-	max-width: 75%;
+	max-width: 80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -276,7 +276,7 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .birthdaycontainer {
-	width: 60%;
+	width: 80%;
 	height: auto;
 	margin-top: 15px;
 	margin-left: auto;
